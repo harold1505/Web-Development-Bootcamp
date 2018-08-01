@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>
+            Register
+        </title>
+    </head>
+    <body>
+        <h1>Register</h1>
+        <form>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required><br>
+
+
+            <label for="male">Male</label>
+            <input name="gender" type="radio" id="male" value="Male" checked> 
+            <label for="female" >Female</label>
+            <input name="gender" type="radio" id="female" value="Female">
+            <label for="other">Other</label>
+            <input name="gender" type="radio" id="other" value="Other"><br>
+
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for"password">Password:</label>
+            <input type="password" id="password" name="password" minlength="5"><br>
+
+
+            <label for="birthday">Birthday:</label>
+            <select id="birthday" name="birthday">
+                <option value="" selected>Month</option>
+                <option>8</option>
+                <option>9</option>
+            </select><br>
+
+
+            <label for="termsandcondition">I agree to the terms and condition</label>
+            <input type="checkbox" id="termsandcondition" name="tnc" required><br>
+
+
+            <button>submit</button>
+        </form>
+    </body>
+</html>
